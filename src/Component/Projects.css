@@ -1,0 +1,97 @@
+/* BACKGROUND */
+.projects {
+  min-height: 100vh;
+  padding: 60px 10%;
+  background: radial-gradient(circle at top right, #1a1f3a, #05070f 60%);
+  color: #e6e9f5;
+}
+
+/* TITLE */
+.projects-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.projects-subtitle {
+  text-align: center;
+  margin-top: 10px;
+  color: #9aa7c7;
+  font-size: 18px;
+}
+
+/* GRID */
+.projects-grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* CARD */
+.project-card {
+  padding: 20px;
+  border-radius: 15px;
+  background: radial-gradient(circle, #0f1428, #070a14);
+  border: 1px solid #2f3b6b;
+  box-shadow: 0 0 30px rgba(90, 100, 255, 0.15);
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: #6d7bff;
+}
+
+/* TEXT */
+.project-card h2 {
+  margin-bottom: 10px;
+  color: #a6b2ff;
+}
+
+.project-card p {
+  font-size: 14px;
+  color: #b8c4e6;
+  line-height: 1.5;
+}
+
+.tech {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #7c83ff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .projects-title {
+    font-size: 32px;
+  }
+}
+.see-more-btn {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #6d7bff;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.see-more-btn:hover {
+  background: #6d7bff;
+}
+.back-btn {
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #3a456b;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #6d7bff;
+}
