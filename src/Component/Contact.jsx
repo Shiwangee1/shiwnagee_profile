@@ -25,11 +25,11 @@ function Contact() {
           <div className="info-item">📧 shivangeesingh117@gmail.com</div>
           <div className="info-item">📱 +91 9336914305</div>
 
-          <a className="info-link" href="https://github.com/Shiwangee1?tab=repositories" target="_blank">
+          <a className="info-link" href="https://github.com/Shiwangee1?tab=repositories" target="_blank"rel="noopener noreferrer" >
             https://github.com/Shiwangee1?tab=repositories
           </a>
 
-          <a className="info-link" href="https://in.linkedin.com/in/shiwangee1" target="_blank">
+          <a className="info-link" href="https://in.linkedin.com/in/shiwangee1" target="_blank" rel="noopener noreferrer">
             💼 LinkedIn / https://in.linkedin.com/in/shiwangee1
           </a>
         </div>
