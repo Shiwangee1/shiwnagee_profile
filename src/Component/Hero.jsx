@@ -1,5 +1,6 @@
 import "./Hero.css";
 import { useNavigate } from "react-router-dom";
+import profileImg from "../Image/shiwangeeprofile.jpeg";
 
 export default function Hero() {
      const navigate = useNavigate();
@@ -43,10 +44,10 @@ export default function Hero() {
 
       {/* RIGHT SIDE */}
       <div className="hero-right">
-        <div className="circle">
-          SS
-        </div>
-      </div>
+  <div className="circle">
+    <img src={profileImg} alt="Profile" className="profile-img" />
+  </div>
+</div>
     </section>
   );
 }
